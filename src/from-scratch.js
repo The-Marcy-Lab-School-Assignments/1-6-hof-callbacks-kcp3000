@@ -1,7 +1,16 @@
-const myForEach = () => {
+const myForEach = (arr, callBack) => {
+  if (!arr?.length) return undefined
+  for (let i = 0; i < arr.length; i++) {
+    callBack(arr[i])
+  };
 };
 
-const myMap = () => {
+const myMap = (arr, callBack) => {
+  let newArr = []
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(callBack(arr[i]))
+  }
+  return newArr;
 };
 
 const myFind = () => {
