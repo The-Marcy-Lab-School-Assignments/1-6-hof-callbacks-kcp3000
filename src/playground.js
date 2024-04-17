@@ -51,7 +51,7 @@ const myFilter = (arr, callBack) => {
 };
 
 const words2 = ['b', 'd', 'a', 'c'];
-console.log(words2)
+//console.log(words2)
 
 const sortWords = (arr) => {
     let newArr = [];
@@ -103,4 +103,8 @@ const sortUsersByName = (arr) => {
 };
 
 
-sortUsersByName(users)
+//sortUsersByName(users)
+
+// const printDouble = (num) => console.log(num * 2);
+// const nums = [1, 2, 3];
+// nums.forEach((element) => { printDouble(element) });
