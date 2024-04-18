@@ -7,7 +7,7 @@ const myForEach = (arr, callBack) => {
 };
 
 const myMap = (arr, callBack) => {
-  let newArr = []
+  let newArr = [];
   for (let i = 0; i < arr.length; i++) {
     newArr.push(callBack(arr[i]))
   }
