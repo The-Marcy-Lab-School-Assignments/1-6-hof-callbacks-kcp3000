@@ -108,3 +108,8 @@ const sortUsersByName = (arr) => {
 // const printDouble = (num) => console.log(num * 2);
 // const nums = [1, 2, 3];
 // nums.forEach((element) => { printDouble(element) });
+
+const printDouble = (num) => console.log(num * 2);
+const nums = [1, 2, 3];
+nums.forEach(printDouble());
+//console.log(nums)
